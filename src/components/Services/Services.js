@@ -7,7 +7,9 @@ import { services } from '../../assets/data/data';
 
 function Services() {
   const allServices = services.map((service) => {
-    return <Service title={service.title} icon={service.icon} />;
+    return (
+      <Service key={service.title} title={service.title} icon={service.icon} />
+    );
   });
   return (
     <section className='services section' id='services'>

@@ -7,7 +7,7 @@ function Education() {
   const Educations = qualifications.education.map((education) => {
     counter++;
     return (
-      <div className='qualification__data'>
+      <div className='qualification__data' key={counter}>
         {counter % 2 ? '' : <div></div>}
         {counter % 2 ? (
           ''

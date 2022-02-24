@@ -157,3 +157,9 @@ export const navLinks = [
   { link: 'portfolio', icon: 'bx-image' },
   { link: 'contact', icon: 'bx-message-square-detail' },
 ];
+
+const NavData = ['home', 'about', 'skills', 'services', 'portfolio', 'contact'];
+export const links = NavData;
+
+export const container = document.getElementsByClassName('work__container');
+export const cards = document.querySelectorAll('.work__card');

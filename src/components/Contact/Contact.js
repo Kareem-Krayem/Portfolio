@@ -21,6 +21,7 @@ function Contact() {
               <a
                 href={`mailto:${contact.email}`}
                 target='_blank'
+                rel='noreferrer'
                 className='contact__button'
               >
                 Write me
@@ -33,7 +34,12 @@ function Contact() {
               <h3 className='contact__card-title'>Whatsapp</h3>
               <span className='contact__card-data'>{contact.phone}</span>
 
-              <a href='#' target='_blank' className='contact__button'>
+              <a
+                href='#home'
+                target='_blank'
+                rel='noreferrer'
+                className='contact__button'
+              >
                 Write me
                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
               </a>
@@ -44,7 +50,12 @@ function Contact() {
               <h3 className='contact__card-title'>Messanger</h3>
               <span className='contact__card-data'>{contact.messanger}</span>
 
-              <a href='#' target='_blank' className='contact__button'>
+              <a
+                href='#home'
+                target='_blank'
+                rel='noreferrer'
+                className='contact__button'
+              >
                 Write me
                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
               </a>

@@ -15,7 +15,7 @@ function Work() {
     if (counter === 2) {
       return (
         <div>
-          <span class='qualification__rounder'> </span>
+          <span className='qualification__rounder'> </span>
         </div>
       );
     }
@@ -23,9 +23,8 @@ function Work() {
   let counter = -1;
   const Works = qualifications.work.map((work) => {
     counter++;
-    console.log(counter);
     return (
-      <div className='qualification__data'>
+      <div className='qualification__data' key={work.title}>
         {counter % 2 ? (
           <>
             <div></div>

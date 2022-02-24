@@ -3,12 +3,9 @@ import './Portfolio.scss';
 
 import mixitup from 'mixitup';
 
-import { portfolio } from '../../assets/data/data';
+import { portfolio, container, cards } from '../../assets/data/data';
 
 function Portfolio() {
-  const container = document.getElementsByClassName('work__container');
-  const cards = document.querySelectorAll('.work__card');
-
   const activeClass = (id) => {
     const allLinks = document.querySelectorAll('.work__item');
     allLinks.forEach((link) => {
@@ -17,7 +14,6 @@ function Portfolio() {
     const link = document.getElementById(id);
     link.classList.add('active-work');
   };
-
   useEffect(() => {
     mixitup(container, {
       selectors: {
@@ -28,7 +24,6 @@ function Portfolio() {
       },
     });
   }, []);
-
   return (
     <section className='work section' id='portfolio'>
       <h2 className='section__title'>My Portfolio</h2>
@@ -72,11 +67,14 @@ function Portfolio() {
       <div className='work__container container grid'>
         {portfolio.map((project) => {
           return (
-            <div className={`work__card mix ${project.category}`}>
+            <div
+              className={`work__card mix ${project.category}`}
+              key={project.title}
+            >
               <img src={project.img} alt='' className='work__img' />
               <h3 className='work__title'>{project.title}</h3>
               <a href={project.url} className='work__button'>
-                Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                Demo <i className='bx bx-right-arrow-alt work__icon'></i>
               </a>
             </div>
           );

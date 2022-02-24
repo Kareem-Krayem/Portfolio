@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.scss';
 
-import { navLinks } from '../../assets/data/data';
+import Scrollspy from 'react-scrollspy';
+
+import { navLinks, links } from '../../assets/data/data';
 
 import logo from '../../assets/img/logo.svg';
 
 function Header() {
-  const [activeLink, setActiveLink] = useState('home');
   const switchTheme = () => {
     const themeButton = document.getElementById('theme-button');
     const darkTheme = 'light-theme';
@@ -55,29 +56,26 @@ function Header() {
   return (
     <header className='header' id='header'>
       <nav className='nav container'>
-        <a href='#' className='nav__logo'>
+        <a href='#home' className='nav__logo'>
           <img src={logo} alt='logo' className='logo' />
         </a>
 
         <div className='nav__menu'>
-          <ul className='nav__list'>
+          <Scrollspy
+            className='nav__list'
+            items={links}
+            currentClassName='nav__link active-link'
+          >
             {navLinks.map((navLink) => {
-              const active =
-                activeLink === navLink.link
-                  ? 'nav__link active-link'
-                  : 'nav__link';
               return (
-                <li
-                  className='nav__item'
-                  onClick={() => setActiveLink(navLink.link)}
-                >
-                  <a href={`#${navLink.link}`} className={active}>
+                <li className='nav__item' key={navLink.link}>
+                  <a href={`#${navLink.link}`} className='nav__link'>
                     <i className={`bx ${navLink.icon}`}></i>
                   </a>
                 </li>
               );
             })}
-          </ul>
+          </Scrollspy>
         </div>
 
         <i

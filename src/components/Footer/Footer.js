@@ -5,59 +5,71 @@ import { social } from '../../assets/data/data';
 
 function Footer() {
   return (
-    <footer class='footer'>
-      <div class='footer__bg'>
-        <div class='footer__container container grid'>
+    <footer className='footer'>
+      <div className='footer__bg'>
+        <div className='footer__container container grid'>
           <div>
-            <h1 class='footer__title'>Karim</h1>
-            <span class='footer__subtitle'>Frontend Developer</span>
+            <h1 className='footer__title'>Karim</h1>
+            <span className='footer__subtitle'>Frontend Developer</span>
           </div>
 
           <div className='footer__columns'>
-            <ul class='footer__links'>
+            <ul className='footer__links'>
               <li>
-                <a href='#services' class='footer__link'>
+                <a href='#services' className='footer__link'>
                   Services
                 </a>
               </li>
               <li>
-                <a href='#portfolio' class='footer__link'>
+                <a href='#portfolio' className='footer__link'>
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href='#contact' class='footer__link'>
+                <a href='#contact' className='footer__link'>
                   Contact Me
                 </a>
               </li>
             </ul>
 
-            <ul class='footer__socials'>
+            <ul className='footer__socials'>
               <li>
                 <a
                   href={social.linkedin}
-                  class='footer__social'
+                  className='footer__social'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='bx bxl-linkedin'></i>
                 </a>
               </li>
               <li>
-                <a href={social.github} class='footer__social' target='_blank'>
+                <a
+                  href={social.github}
+                  className='footer__social'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <i className='bx bxl-github'></i>
                 </a>
               </li>
               <li>
                 <a
                   href={social.instagram}
-                  class='footer__social'
+                  className='footer__social'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   <i className='bx bxl-instagram'></i>
                 </a>
               </li>
               <li>
-                <a href={social.behance} class='footer__social' target='_blank'>
+                <a
+                  href={social.behance}
+                  className='footer__social'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <i className='bx bxl-behance'></i>
                 </a>
               </li>
