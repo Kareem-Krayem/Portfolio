@@ -1,9 +1,20 @@
 import React from 'react';
 import './Home.scss';
+import ScrollReveal from 'scrollreveal';
 
 import { home, social } from '../../assets/data/data';
 
 function Home() {
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true,
+  });
+  sr.reveal(`.home__data`);
+  sr.reveal(`.home__img`, { delay: 700 });
+  sr.reveal(`.home__social`, { delay: 700, origin: 'bottom' });
   return (
     <section className='home section' id='home'>
       <div className='home__container container grid'>

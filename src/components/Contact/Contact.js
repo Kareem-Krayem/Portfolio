@@ -63,7 +63,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className='contact__content' style={{ paddingTop: '3rem' }}>
+        <div className='contact__content' id='contact__second__part'>
           <h3 className='contact__title'>Write me your project</h3>
           <form action='' className='contact__form'>
             <div className='contact__form-div'>

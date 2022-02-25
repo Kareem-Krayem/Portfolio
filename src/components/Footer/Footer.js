@@ -36,7 +36,7 @@ function Footer() {
               <li>
                 <a
                   href={social.linkedin}
-                  className='footer__social'
+                  className='footer__social-icon'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -46,7 +46,7 @@ function Footer() {
               <li>
                 <a
                   href={social.github}
-                  className='footer__social'
+                  className='footer__social-icon'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -56,7 +56,7 @@ function Footer() {
               <li>
                 <a
                   href={social.instagram}
-                  className='footer__social'
+                  className='footer__social-icon'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -66,7 +66,7 @@ function Footer() {
               <li>
                 <a
                   href={social.behance}
-                  className='footer__social'
+                  className='footer__social-icon'
                   target='_blank'
                   rel='noreferrer'
                 >
