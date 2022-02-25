@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f37e843f.css",
-    "main.js": "/portfolio/static/js/main.f310ec6e.js",
+    "main.css": "/portfolio/static/css/main.d21a0139.css",
+    "main.js": "/portfolio/static/js/main.d3b41bc6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/KarimKrayem-CV.pdf": "/portfolio/static/media/KarimKrayem-CV.46a36aea0131724bfe77.pdf",
     "static/media/about.PNG": "/portfolio/static/media/about.e91093fb6e6953177bd7.PNG",
@@ -10,12 +10,12 @@
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.b100f823e1d9a2e55cca.jpg",
     "static/media/logo.svg": "/portfolio/static/media/logo.678a0d2b4fa238b5c6e9424fa88dc8af.svg",
     "index.html": "/portfolio/index.html",
-    "main.f37e843f.css.map": "/portfolio/static/css/main.f37e843f.css.map",
-    "main.f310ec6e.js.map": "/portfolio/static/js/main.f310ec6e.js.map",
+    "main.d21a0139.css.map": "/portfolio/static/css/main.d21a0139.css.map",
+    "main.d3b41bc6.js.map": "/portfolio/static/js/main.d3b41bc6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f37e843f.css",
-    "static/js/main.f310ec6e.js"
+    "static/css/main.d21a0139.css",
+    "static/js/main.d3b41bc6.js"
   ]
 }
