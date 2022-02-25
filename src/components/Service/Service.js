@@ -24,7 +24,7 @@ function Service({ title, icon }) {
 
       <span
         className='
-            button button--flex button--small button--link
+           button--flex button--small button--link
             services__button
           '
         onClick={openModal}
