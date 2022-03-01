@@ -3,16 +3,25 @@ import React from 'react';
 import { qualifications } from '../../assets/data/data';
 
 function Work() {
+  let counter = -1;
   const First = () => {
-    return (
-      <div>
-        <span className='qualification__rounder'> </span>
-        <span className='qualification__line'> </span>
-      </div>
-    );
+    if (counter === 3) {
+      return (
+        <div>
+          <span className='qualification__rounder'> </span>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <span className='qualification__rounder'> </span>
+          <span className='qualification__line'> </span>
+        </div>
+      );
+    }
   };
   const Last = () => {
-    if (counter === 2) {
+    if (counter.length) {
       return (
         <div>
           <span className='qualification__rounder'> </span>
@@ -20,7 +29,6 @@ function Work() {
       );
     }
   };
-  let counter = -1;
   const Works = qualifications.work.map((work) => {
     counter++;
     return (
@@ -44,7 +52,7 @@ function Work() {
           </div>
         </div>
 
-        {counter === 0 ? First() : Last()}
+        {counter % 2 ? Last() : First()}
       </div>
     );
   });

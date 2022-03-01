@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Service({ title, icon }) {
+function Service({ title, icon, description }) {
   const [modalState, setModalState] = useState(false);
   const modalClass = modalState
     ? 'services__modal active-modal'
@@ -14,7 +14,14 @@ function Service({ title, icon }) {
     setModalState(false);
     modalView.classList.remove('active-modal');
   };
-
+  const modalData = description.map((d) => {
+    return (
+      <li className='services__modal-service' key={d}>
+        <i className='bx bx-check-circle services__modal-icon'></i>
+        <p>{d}</p>
+      </li>
+    );
+  });
   return (
     <div className='services__content'>
       <div>
@@ -36,25 +43,7 @@ function Service({ title, icon }) {
         <div className='services__modal-content'>
           <h4 className='services__modal-title'>{title}</h4>
           <i className='bx bx-x services__modal-close' onClick={closeModal}></i>
-
-          <ul className='services__modal-services grid'>
-            <li className='services__modal-service'>
-              <i className='bx bx-check-circle services__modal-icon'></i>
-              <p>I develop the user interface.</p>
-            </li>
-            <li className='services__modal-service'>
-              <i className='bx bx-check-circle services__modal-icon'></i>
-              <p>Web page development.</p>
-            </li>
-            <li className='services__modal-service'>
-              <i className='bx bx-check-circle services__modal-icon'></i>
-              <p>I create ux element interactions.</p>
-            </li>
-            <li className='services__modal-service'>
-              <i className='bx bx-check-circle services__modal-icon'></i>
-              <p>I position your company brand.</p>
-            </li>
-          </ul>
+          <ul className='services__modal-services grid'>{modalData}</ul>
         </div>
       </div>
     </div>

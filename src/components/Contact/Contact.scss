@@ -97,11 +97,14 @@
   }
 }
 
-#contact__second__part{
-  padding-top:3rem;
+#contact__second__part {
+  padding-top: 3rem;
+}
+
+input:focus,
+textarea:focus {
+  transition: 0.4s;
+  border-color: var(--first-color);
 }
 
 @import '../../scss/1-helpers/queries';
-// @import '../../scss/1-helpers/small-query';
-// @import '../../scss/1-helpers/medium-query';
-// @import '../../scss/1-helpers/large-query';

@@ -1,12 +1,8 @@
 export const social = {
-  linkedin:
-    'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  github:
-    'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  instagram:
-    'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  behance:
-    'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
+  linkedin: 'https://www.linkedin.com/in/karim-krayem-838782181/',
+  github: 'https://github.com/Kareem-Krayem',
+  instagram: 'https://www.instagram.com/kareemkrayem.kk/',
+  behance: 'https://www.behance.net/kareemkrayem',
 };
 
 export const home = {
@@ -14,13 +10,13 @@ export const home = {
   name: "Hi, I'm Karim",
   occupation: 'Frontend developer',
   description:
-    'High level experience in web design and development knowledge, producing quality work.',
+    'High level experience in UI/UX design and web development knowledge, producing quality work. Creating awesome projects from design to deploying.',
 };
 
 export const about = {
   myPicture: require('../img/about.PNG'),
   description:
-    'Web developer, with extensive knowledge and years of experience, working in web technologies and UI/UX design, delivering quality work.',
+    'Web developer, with extensive knowledge and years of experience. Working with UI/UX design and web technologies, delivering quality work.',
   yearsOfExperience: '03',
   completedProjects: '20',
   companiesWorked: '04',
@@ -34,8 +30,8 @@ export const skills = {
     icon: 'bx-code-curly',
     skills: [
       { name: 'HTML', percentage: '90%' },
-      { name: 'CSS', percentage: '80%' },
-      { name: 'JavaScript', percentage: '65%' },
+      { name: 'CSS', percentage: '90%' },
+      { name: 'JavaScript', percentage: '80%' },
       { name: 'React JS', percentage: '75%' },
     ],
   },
@@ -45,9 +41,9 @@ export const skills = {
     icon: 'bx-server',
     skills: [
       { name: 'PHP', percentage: '80%' },
-      { name: 'Node JS', percentage: '50%' },
-      { name: 'Firebase', percentage: '60%' },
-      { name: 'Python', percentage: '80%' },
+      { name: 'Python', percentage: '65%' },
+      { name: 'Node JS', percentage: '60%' },
+      { name: 'Firebase', percentage: '50%' },
     ],
   },
   designer: {
@@ -69,7 +65,7 @@ export const qualifications = {
       university: 'Berlin School of Business and Innovation',
       country: 'Germany',
       startDate: '2020',
-      endDate: 'Present',
+      endDate: '2022',
     },
     {
       title: 'B.S. Computer Science',
@@ -80,6 +76,13 @@ export const qualifications = {
     },
   ],
   work: [
+    {
+      title: 'Lead Developer',
+      company: 'SunTec',
+      country: 'Tripoli, Lebanon',
+      startDate: '2021',
+      endData: 'Present',
+    },
     {
       title: 'Lead Designer & Developer',
       company: 'OGMA',
@@ -104,11 +107,44 @@ export const qualifications = {
   ],
 };
 
-export const services = [
-  { title: 'UI/UX Designer', icon: 'bx-shape-square' },
-  { title: 'Frontend Developer', icon: 'bx-code' },
-  { title: 'Branding Designer', icon: 'bx-pencil' },
-];
+export const services = {
+  uiuxdesign: {
+    title: 'UI/UX Designer',
+    icon: 'bx-shape-square',
+    description: [
+      'High-fidelity Prototype',
+      'Wireframes',
+      'Mobile and Web User Interface Design',
+      'Cross-Platform Compatibility',
+      'Technical Design',
+      'Software Redesign',
+    ],
+  },
+  frontenddeveloper: {
+    title: 'Frontend Developer',
+    icon: 'bx-code',
+    description: [
+      'React JS Development',
+      'Node JS Development',
+      'Custom Web Apps',
+      'Responsive development',
+      'Fast development',
+      'Scalablility',
+      'Beautiful UI',
+    ],
+  },
+  brandingdesign: {
+    title: 'Digital Marketing',
+    icon: 'bx-pencil',
+    description: [
+      'Search Engine Optimization',
+      'Social Media Marketing',
+      'PPC Management',
+      'eCommerce Marketing',
+      'Email Marketing',
+    ],
+  },
+};
 
 export const portfolio = [
   {
@@ -145,7 +181,7 @@ export const portfolio = [
 
 export const contact = {
   email: 'kareemkrayem.w@gmail.com',
-  phone: '+96171848214',
+  location: 'Lebanon',
   messanger: 'kareemkrayem',
 };
 
