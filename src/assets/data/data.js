@@ -177,6 +177,12 @@ export const portfolio = [
     category: 'Web',
     url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
   },
+  {
+    title: 'Electric bike landing page',
+    img: require('../../assets/img/landing-page-01.jpg'),
+    category: 'Design',
+    url: 'https://www.figma.com/file/OrFKK7U2Rirk6RY66Uxzgf/Landing-Page?node-id=2%3A2',
+  },
 ];
 
 export const contact = {
