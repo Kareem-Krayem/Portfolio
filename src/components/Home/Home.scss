@@ -21,7 +21,8 @@
     color: var(--first-color);
 
     &:hover {
-      color: var(--first-color-alt);
+      transition: 0.3s;
+      color: var(--first-color-lighter);
     }
   }
 

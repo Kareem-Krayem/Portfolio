@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4a7251b7.css",
-    "main.js": "/portfolio/static/js/main.1a38da15.js",
+    "main.js": "/portfolio/static/js/main.f5355789.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/KarimKrayem-CV.pdf": "/portfolio/static/media/KarimKrayem-CV.46a36aea0131724bfe77.pdf",
     "static/media/about.PNG": "/portfolio/static/media/about.e91093fb6e6953177bd7.PNG",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.678a0d2b4fa238b5c6e9424fa88dc8af.svg",
     "index.html": "/portfolio/index.html",
     "main.4a7251b7.css.map": "/portfolio/static/css/main.4a7251b7.css.map",
-    "main.1a38da15.js.map": "/portfolio/static/js/main.1a38da15.js.map",
+    "main.f5355789.js.map": "/portfolio/static/js/main.f5355789.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a7251b7.css",
-    "static/js/main.1a38da15.js"
+    "static/js/main.f5355789.js"
   ]
 }
