@@ -18,7 +18,7 @@ function Main() {
       <Qualifications />
       <Services />
       <Portfolio />
-      {/* <Contact /> */}
+      <Contact />
     </main>
   );
 }
