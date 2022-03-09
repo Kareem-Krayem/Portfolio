@@ -154,18 +154,6 @@ export const portfolio = [
     url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
   },
   {
-    title: 'Web Design1',
-    img: require('../../assets/img/portfolio2.jpg'),
-    category: 'Mobile',
-    url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  },
-  {
-    title: 'Web Design2',
-    img: require('../../assets/img/portfolio3.jpg'),
-    category: 'Design',
-    url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  },
-  {
     title: 'Web Design3',
     img: require('../../assets/img/portfolio1.jpg'),
     category: 'Web',
@@ -179,9 +167,51 @@ export const portfolio = [
   },
   {
     title: 'Electric bike landing page',
-    img: require('../../assets/img/landing-page-01.jpg'),
+    img: require('../../assets/img/portfolio/landing-page-01.jpg'),
     category: 'Design',
     url: 'https://www.figma.com/file/OrFKK7U2Rirk6RY66Uxzgf/Landing-Page?node-id=2%3A2',
+  },
+  {
+    title: 'Landing page with signup',
+    img: require('../../assets/img/portfolio/landing-page-02.jpg'),
+    category: 'Design',
+    url: 'https://www.figma.com/file/m1QeBTkqj6uO6HfGzLef5k/Artistic-auth?node-id=1%3A72',
+  },
+  {
+    title: 'Light Home image gallery landing page',
+    img: require('../../assets/img/portfolio/landing-page-03.jpg'),
+    category: 'Design',
+    url: 'https://www.figma.com/file/iD67IyMYLOMbVa8q4kBz02/Light-Home-Gallery?node-id=0%3A3',
+  },
+  {
+    title: 'Anima design landing page',
+    img: require('../../assets/img/portfolio/anima-design.jpg'),
+    category: 'Design',
+    url: 'https://www.figma.com/file/bN4eldmrXUuGNTmMQuJ6pZ/anima-design?node-id=1%3A2',
+  },
+  {
+    title: 'Food Hunt landing page',
+    img: require('../../assets/img/portfolio/landing-page-04.jpg'),
+    category: 'Design',
+    url: 'https://www.figma.com/file/MNcwJVTGvQyc6qx6nGJfS9/Food-Hunt?node-id=2%3A92',
+  },
+  {
+    title: 'Anima Mobile design landing page',
+    img: require('../../assets/img/portfolio/anima-design.jpg'),
+    category: 'Mobile',
+    url: 'https://www.figma.com/file/bN4eldmrXUuGNTmMQuJ6pZ/anima-design?node-id=6%3A57',
+  },
+  {
+    title: 'NFT landing page',
+    img: require('../../assets/img/portfolio/landing-page-05.jpg'),
+    category: 'Design',
+    url: 'https://www.figma.com/file/5lItAdBEP43NOGilViZgBU/NFT-landing-page?node-id=1%3A2',
+  },
+  {
+    title: 'MugSgot Beirut mobile E-Commerce',
+    img: require('../../assets/img/portfolio/mugshot-mobile.jpg'),
+    category: 'Mobile',
+    url: 'https://www.figma.com/file/KwijPyIOFE7XUolLy4rGZ6/MugShot-Beirut-E-Commerce-Website?node-id=116%3A1577',
   },
 ];
 
