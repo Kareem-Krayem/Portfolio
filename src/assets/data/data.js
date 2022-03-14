@@ -148,22 +148,10 @@ export const services = {
 
 export const portfolio = [
   {
-    title: 'Web Design0',
-    img: require('../../assets/img/portfolio1.jpg'),
+    title: 'My Portfolio',
+    img: require('../../assets/img/portfolio/website-01.png'),
     category: 'Web',
-    url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  },
-  {
-    title: 'Web Design3',
-    img: require('../../assets/img/portfolio1.jpg'),
-    category: 'Web',
-    url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
-  },
-  {
-    title: 'Web Design4',
-    img: require('../../assets/img/portfolio1.jpg'),
-    category: 'Web',
-    url: 'https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjnvLTawpX2AhUJ2aQKHQfhA6IQPAgI',
+    url: 'https://kareem-krayem.github.io/portfolio/',
   },
   {
     title: 'Electric bike landing page',
