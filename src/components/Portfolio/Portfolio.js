@@ -74,7 +74,8 @@ function Portfolio() {
               <img src={project.img} alt='' className='work__img' />
               <h3 className='work__title'>{project.title}</h3>
               <a href={project.url} className='work__button'>
-                Demo <i className='bx bx-right-arrow-alt work__icon'></i>
+                Demo
+                {/* <i className='bx bx-right-arrow-alt work__icon'></i> */}
               </a>
             </div>
           );
